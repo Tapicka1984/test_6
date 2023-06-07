@@ -29,7 +29,7 @@ namespace WindowsFormsApp5
                     int cislo = int.Parse(line);
                     if (cislo < 0)
                     {
-                        soucet += cislo;
+                        checked { soucet += cislo; }
                         pocet_zapornych_cisel++;
                     }
                 }
