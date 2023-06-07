@@ -48,8 +48,8 @@ namespace WindowsFormsApp5
             {
                 if(test == false)
                 {
-                    float finish = 0;
-                    checked { finish = (soucet / pocet_zapornych_cisel); }
+                    float finish = 0f;
+                    checked { finish = ((float)soucet / (float)pocet_zapornych_cisel); }
                     MessageBox.Show("soucet všech lichých čísel je: " + soucet + "\n pocet cisel je: " + pocet_zapornych_cisel + "\n\n a artimeticky prumer je: " + finish);
                 }
             }
