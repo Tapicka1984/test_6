@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>návod na použití:
+1) zadejte čísla do textboxu, na každý řádek jedno
+2) až budete mít hotovo, tak klikněte na tlačítko
+3) program vypíše průměr ze záporných čísel - pokud bude při 
+běhu programu objevena chyba, jako třeba špatný formát čísla, 
+popřípadě budou čísla kladná, tak je bude program ignorovat
+
+pokud dojde k pokusu o dělení nulout tak se porgram zastaví, 
+stejně tak se bude dít pokud dojde k přetečení datového typu
+</value>
+  </data>
 </root>
